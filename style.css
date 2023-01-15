@@ -461,7 +461,7 @@
   .features-container {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 50px;
-    margin: 50px 10px 50px 10px;
+    margin: 50px 20px 50px 20px;
     text-align: center;
     padding-bottom: 50px;
   }
@@ -472,6 +472,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 15px;
+    margin: 0 50px;
   }
   .header-title {
     font-size: 25px;
@@ -485,8 +486,8 @@
     font-size: 15px;
   }
   .features-image img {
-    width: 395px;
-    height: 660px;
+    width: 340px;
+    height: 600px;
   }
   .experience-btn {
     width: 230px;

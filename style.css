@@ -965,6 +965,7 @@
 
 /* footer section start here */
 .footer-container {
+  margin: 0 220px;
   background: #fff4e7;
   height: 100px;
   display: flex;
@@ -977,20 +978,29 @@
 }
 /* footer responsive start here */
 @media only screen and (max-width: 576px) {
+  .footer-container {
+    margin: 0 10px;
+  }
   .footer-container p {
     text-align: center;
     font-size: 16px;
-    margin: 0 100px;
+    margin: 0 50px;
   }
 }
 @media only screen and (min-width: 577px) {
+  .footer-container {
+    margin: 0 20px;
+  }
   .footer-container p {
     text-align: center;
     font-size: 17px;
-    margin: 0 100px;
+    margin: 0 60px;
   }
 }
 @media only screen and (min-width: 768px) {
+  .footer-container {
+    margin: 0 100px;
+  }
   .footer-container p {
     text-align: center;
     font-size: 18px;
@@ -998,6 +1008,9 @@
   }
 }
 @media only screen and (min-width: 992px) {
+  .footer-container {
+    margin: 0 220px;
+  }
   .footer-container p {
     font-size: 20px;
   }
